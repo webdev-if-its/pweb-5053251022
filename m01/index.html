@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Taman Baca RW 04</title>
+
+  <meta name="description" content="Taman Baca RW 04 adalah taman baca untuk warga.">
+
+  <meta property="og:title" content="Taman Baca RW 04">
+  <meta property="og:description" content="Taman Baca RW 04 adalah taman baca untuk warga.">
+  <meta property="og:type" content="website">
+</head>
+
+<body>
+
+  <!--
+  PERTEMUAN 1 — Struktur Dokumen dan Semantik
+
+  Halaman ini sengaja ditulis "asal jalan": terlihat oke di browser,
+  tapi hampir semua strukturnya salah.
+
+  Tugas kalian: perbaiki bertahap, Level 1 sampai 10.
+  Baca SOAL.md, lalu jalankan:  npm run levels
+
+  Semua test akan merah di awal. Itu memang seharusnya.
+-->
+
+  <header class="header">
+    <h1 class="judul-besar">Taman Baca RW 04</h1>
+     <nav class="menu">
+    <a href="#koleksi">Koleksi</a>
+    <a href="#jadwal">Jadwal</a>
+  </nav>
+  </header>
+
+  <main class="isi">
+
+    <h2>Tentang Kami</h2>
+    <p>Taman Baca RW 04 dibuka untuk warga sejak 2019.</p>
+
+    <section id="jadwal">
+      <h3>Jam Buka</h3>
+        <ul>
+          <li>Senin - Jumat: 15.00 - 20.00</li>
+          <li>Sabtu: 09.00 - 17.00</li>
+          <li>Minggu: tutup</li>
+        </ul>
+    </section>
+    <section id="koleksi">
+      <h4>Koleksi</h4>
+      <img src="rak.jpg" alt="Rak Koleksi Pokoknya Buku">
+      <img src="garis.png" alt="">
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Kategori</th>
+            <th scope="col">Jumlah</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Novel</th>
+            <td>320</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+      <article class="berita">
+        <h5>Donasi buku anak dari SD Negeri 3 sudah kami terima.</h5>
+      </article>
+
+      <article class="berita">
+        <h6>Jadwal mendongeng bulan ini setiap Sabtu pagi.</h6>
+      </article>
+
+      <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">
+        Lihat lokasi kami di Google Maps
+      </a>
+  </main>
+  <footer class="footer">
+    Taman Baca RW 04
+  </footer>
+
+</body>
+
+</html>

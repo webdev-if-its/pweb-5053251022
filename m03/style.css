@@ -10,6 +10,7 @@ body {
 /* Level 1 */
 .kartu-flex {
   display: flex;
+  gap: 1rem;
 }
 
 .kartu {
@@ -17,7 +18,7 @@ body {
   padding: 1rem;
   border: 1px solid #2c6e49;
 }
-
+s
 /* Level 2 */
 
 /* Level 3  */

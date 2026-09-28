@@ -1,0 +1,228 @@
+:root {
+  --biru-tua: #262d63;
+  --kuning: #fbbf4a;
+  --abu-muda: #f3f3f4;
+  --teks: #0d0d0d;
+  --teks-abu: #4a4a4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", system-ui, sans-serif;
+  color: var(--teks);
+  background-color: #3e3d3d;
+  padding: 2rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.halaman {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 3rem 3rem 4rem;
+  border-radius: 6px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--biru-tua);
+}
+
+.tombol-tas {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--abu-muda);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tombol-tas img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tombol {
+  display: inline-block;
+  padding: 0.9rem 1.7rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tombol-biru {
+  background-color: var(--biru-tua);
+  color: #ffffff;
+  padding: 0.9rem 2rem;
+}
+
+.tombol-abu {
+  background-color: var(--abu-muda);
+  color: var(--biru-tua);
+}
+
+.tombol-kuning {
+  background-color: var(--kuning);
+  color: var(--teks);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.hero-teks {
+  padding-top: 5rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0 0 1.5rem;
+}
+
+.hero-teks > p {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--teks-abu);
+  margin: 0 0 2rem;
+}
+
+.tombol-grup {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.pengguna {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pengguna p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--teks-abu);
+  max-width: 14rem;
+}
+
+.avatar-grup {
+  display: flex;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-left: -6px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.avatar:first-child {
+    margin-left: 0;
+}
+
+.avatar-1 { background-image: url("aset/foto2.jpg"); }
+.avatar-2 { background-image: url("aset/foto1.jpg"); }
+
+
+.avatar-jumlah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--biru-tua);
+  color: var(--kuning);
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+
+.hero-foto {
+  display: flex;
+  gap: 0.6rem;
+  height: 400px;
+}
+
+.kolom-foto {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+.foto {
+  border-radius: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foto-1 { flex: 1;   background-image: url("aset/foto1.jpg"); }
+.foto-2 { flex: 2.2; background-image: url("aset/foto2.jpg"); }
+.foto-3 { flex: 1.3; background-image: url("aset/foto3.jpg"); }
+.foto-4 { flex: 1.9; background-image: url("aset/foto4.jpg"); }
+.foto-5 { flex: 2.3; background-image: url("aset/foto5.jpg"); }
+.produk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+
+.produk-gambar {
+  height: 300px;
+  background-color: #000000;
+  background-image: url("aset/foto6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.produk h2 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+}

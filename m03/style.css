@@ -24,7 +24,7 @@ body {
 
 /* Level 3 */
 .kartu-flex {
-  align-items: center;
+  align-items: stretch;
 }
 
 /* Level 4 */
